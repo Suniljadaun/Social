@@ -1,0 +1,66 @@
+# Node.js / React
+node_modules/
+.env
+build/
+dist/
+.parcel-cache/
+.expo/
+.react-native/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+.eslintcache
+.prettiercache
+storybook-static/
+.vscode/ # Optional, if you don't want to commit VS Code settings
+
+# Java / Spring Boot
+.gradle/
+/build/
+.idea/ # IntelliJ IDEA project files
+*.iml  # IntelliJ IDEA module files
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+target/ # Maven build output
+out/    # Gradle build output
+*.log
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.class
+# Ignore compiled output and other temporary files
+# Specific to Spring Boot
+*.jar
+*.war
+/bin/
+/lib/
+/temp/
+/logs/
+/data/ # For local database files like H2 or embedded DBs
+uploads/ # For user uploaded files
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE-specific files (if not covered by .idea or .vscode above)
+*.swp
+*~
+.project
+.classpath
+.factorypath
+.metadata
+.DS_Store
+*.sqlite
+*.sqlite3
+
+# Any other local configuration files
+*.env
+.env.*
